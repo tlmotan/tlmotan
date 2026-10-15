@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="76" viewBox="0 0 400 76">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset="0.6" stop-color="#15181d"/>
+      <stop offset="1" stop-color="#3a4a5f"/>
+    </linearGradient>
+    <filter id="s" x="-10%" y="-30%" width="120%" height="180%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="392" height="60" rx="30" fill="url(#bg)" stroke="#d0d3d8" stroke-width="2" filter="url(#s)"/>
+  <text x="28" y="43" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="22">I'm currently working on</text>
+  <circle cx="366" cy="34" r="22" fill="#fff"/>
+  <path d="M376 24 L358 32 L365 35 L368 42 Z" fill="#1b2330"/>
+</svg>
